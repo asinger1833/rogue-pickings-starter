@@ -103,22 +103,21 @@ header nav ul li a{
 }
 	
 
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-}
 .main-title h2 {
 	text-align: left;
-	padding: 5px 0;
+	padding: 10px 0 10px 10Spx;
 	color: #77a466;
 }
 .main-title p {
-	padding: 0;
+	padding: 0 5px 0 5px;
 	font-size: 1em;
 	line-height: 1.5625em;
+	margin-right: 50px;
 }
 
 .section-one,
@@ -126,21 +125,17 @@ header nav ul li a{
 .section-three {
 	width: 100%;
 	border-top: 1px solid #eee;
+	
 
 }
 
 .section-one h3 {
-	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	padding: 10px 0 0 10px;
 }
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 10px 0 0 10px;
 }
 
 .menu {
@@ -148,7 +143,7 @@ header nav ul li a{
 	padding: 0;
 }
 .menu li {
-	padding: 10px 0;
+	padding: 10px 0 0 10px;
 	color:#77a466;
 }
 
