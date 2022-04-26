@@ -12,12 +12,11 @@ body {
 
 .container{
 	max-width: 1200px;
-	margin: 0 auto;
 	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: row wrap; 
 	
 }
 
@@ -47,35 +46,47 @@ p {
 /*The widths are in a percentage!*/
 header {
 	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
+	text-align: center;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	padding: 10px 0 10px;
+	
+
 	
 }
-
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 20px 20px 20px;
+	border-bottom: 3px solid #77a466;
+	width: 100%;
+
+	
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
+	width: 100%;
+	
 }
 header nav ul {
 	margin: 0;
 	padding: 0;
+	flex-flow: row wrap;
+	
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
-	display: inline;
+
+	
 }
 header nav ul li a{
 	text-decoration: none;
@@ -90,6 +101,7 @@ header nav ul li a{
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	
 	
 }
 
@@ -121,8 +133,10 @@ header nav ul li a{
 .section-two,
 .section-three {
 	width: 33%;
-	height: auto;
 	border-top: 1px solid #eee;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .section-one h3 {
